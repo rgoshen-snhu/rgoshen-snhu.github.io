@@ -1,0 +1,10 @@
+title: rgoshen-snhu.github.io
+description: SNHU GitHub Pages site
+theme: minima
+
+# Build settings
+markdown: kramdown
+
+# Exclude from processing
+exclude:
+  - README.md
