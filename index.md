@@ -21,6 +21,8 @@ Enhanced version of the Weight to Go application.
 
 [View Repository](https://github.com/rgoshen-snhu/WeighToGo/tree/main/web)
 
+---
+
 ### Milestone One Code Review
 
 [YouTube](https://youtu.be/Hk-b0DdcnT4)
