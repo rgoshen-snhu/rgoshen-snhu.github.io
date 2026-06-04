@@ -21,8 +21,15 @@ Enhanced version of the Weight to Go application.
 
 [View Repository](https://github.com/rgoshen-snhu/WeighToGo/tree/main/web)
 
+#### Enhancement One — Software Design and Engineering
+
+- [Read the narrative]({{ '/narratives/enhancement-1-software-design.html' | relative_url }})
+- [Download the Word version]({{ '/narratives/milestone_two_narrative_final.docx' | relative_url }})
+
 ---
 
 ### Milestone One Code Review
 
-[YouTube](https://youtu.be/Hk-b0DdcnT4)
+[Watch on YouTube](https://www.youtube.com/watch?v=Hk-b0DdcnT4)
+
+*This video will be updated to incorporate instructor feedback before final submission.*
