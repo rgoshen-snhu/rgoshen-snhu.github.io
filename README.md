@@ -24,13 +24,11 @@ complete items; 📝 marks placeholders awaiting work.
 |---|---|---|---|
 | 1 | Professional Self-Assessment (presented first in ePortfolio) | 📝 TBD | `index.md` (introductory section) — Module 6 |
 | 2 | Code Review Video (Milestone One) | ✅ draft | [YouTube](https://www.youtube.com/watch?v=Hk-b0DdcnT4) — pending instructor feedback revisions |
-| 3 | Original Artifact — *Weight to Go* (Android, Java) | ✅ | [GitHub](https://github.com/rgoshen-snhu/WeighToGo/tree/main/android) |
-| 4 | Enhancement 1 — Software Design and Engineering (Milestone Two) | ✅ | [GitHub](https://github.com/rgoshen-snhu/WeighToGo/tree/main/web) |
-| 5 | Enhancement 2 — Algorithms and Data Structures (Milestone Three) | 📝 TBD | TBD — Module 4 |
-| 6 | Enhancement 3 — Databases (Milestone Four) | 📝 TBD | TBD — Module 5 |
-| 7 | Narrative — Enhancement 1 (Software Design and Engineering) | ✅ | `narratives/enhancement-1-software-design.md` (rendered) · `narratives/milestone_two_narrative_final.docx` (source) |
-| 8 | Narrative — Enhancement 2 (Algorithms and Data Structures) | 📝 TBD | `narratives/` — Module 4 |
-| 9 | Narrative — Enhancement 3 (Databases) | 📝 TBD | `narratives/` — Module 5 |
+| 3 | Original Artifact — *Weight to Go* (Android) | ✅ | [GitHub](https://github.com/rgoshen-snhu/WeighToGo/tree/main/android) |
+| 4 | Enhanced Artifact — CS 499: Weight to Go (Web) | ✅ | [GitHub](https://github.com/rgoshen-snhu/WeighToGo/tree/main/web) |
+| 5 | Narrative — Enhancement 1 (Software Design and Engineering) | ✅ | `narratives/enhancement-1-software-design.md` (rendered) · `narratives/milestone_two_narrative_final.docx` (source) |
+| 6 | Narrative — Enhancement 2 (Algorithms and Data Structures) | 📝 TBD | `narratives/` — Module 4 |
+| 7 | Narrative — Enhancement 3 (Databases) | 📝 TBD | `narratives/` — Module 5 |
 
 > **Note on artifact choice**: Per the rubric, enhancements may either be
 > layered on the *same* artifact across all three categories (the current

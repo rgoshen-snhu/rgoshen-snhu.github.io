@@ -5,6 +5,12 @@ title: ePortfolio
 
 # ePortfolio
 
+## Professional Self-Assessment
+
+*Coming in Module 6 (Milestone Five). This section will serve as the holistic introduction to the portfolio — a reflection on the Computer Science program, the strengths demonstrated through the artifacts below, professional goals and values, and how this work positions me for the next stage of my career.*
+
+---
+
 ## Artifacts
 
 ### Original Artifact — CS 360: Weight to Go (Mobile)
@@ -25,6 +31,14 @@ Enhanced version of the Weight to Go application.
 
 - [Read the narrative]({{ '/narratives/enhancement-1-software-design.html' | relative_url }})
 - [Download the Word version]({{ '/narratives/milestone_two_narrative_final.docx' | relative_url }})
+
+#### Enhancement Two — Algorithms and Data Structures
+
+*Coming in Module 4 (Milestone Three).*
+
+#### Enhancement Three — Databases
+
+*Coming in Module 5 (Milestone Four).*
 
 ---
 
