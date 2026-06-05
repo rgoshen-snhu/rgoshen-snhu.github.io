@@ -1,9 +1,7 @@
 ---
-layout: home
+layout: default
 title: ePortfolio
 ---
-
-# ePortfolio
 
 ## Professional Self-Assessment
 

@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: default
 title: "Milestone 2: Enhancement One: Software Design/Engineering"
+description: "Milestone Two — CS 499 Computer Science Capstone"
 date: 2026-06-04
 ---
 

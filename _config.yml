@@ -1,6 +1,7 @@
 title: CS-499 Computer Science Capstone
 description: SNHU GitHub Pages site for Rick Goshen's senior capstone project.
-theme: minima
+theme: jekyll-theme-cayman
+show_downloads: false
 
 # Build settings
 markdown: kramdown
