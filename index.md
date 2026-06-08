@@ -32,7 +32,8 @@ Enhanced version of the Weight to Go application.
 
 #### Enhancement Two — Algorithms and Data Structures
 
-*Coming in Module 4 (Milestone Three).*
+- [Read the narrative]({{ '/narratives/enhancement-2-dsa.html' | relative_url }})
+- [Download the Word version]({{ '/narratives/milestone_three_narrative_final.docx' | relative_url }})
 
 #### Enhancement Three — Databases
 
@@ -43,5 +44,3 @@ Enhanced version of the Weight to Go application.
 ### Milestone One Code Review
 
 [Watch on YouTube](https://www.youtube.com/watch?v=Hk-b0DdcnT4)
-
-*This video will be updated to incorporate instructor feedback before final submission.*
