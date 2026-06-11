@@ -62,27 +62,23 @@ database-security argument. The first is that the event vocabulary is a
 closed set enforced by the database rather than a free-text column, so
 an unknown event type cannot be written:
 
-> CONSTRAINT audit_log_event_type_valid CHECK (event_type IN (
->
-> \'auth.register\', \'auth.login_succeeded\', \'auth.login_failed\',
->
-> \'auth.logout\', \'auth.token_refreshed\',
-> \'auth.token_reuse_detected\',
->
-> \'auth.account_locked\', \'weight_entry.created\',
-> \'weight_entry.updated\',
->
-> \'weight_entry.deleted\', \'goal.created\', \'goal.updated\',
->
-> \'goal.abandoned\', \'preference.updated\'
->
-> ))
+```sql
+CONSTRAINT audit_log_event_type_valid CHECK (event_type IN (
+  'auth.register', 'auth.login_succeeded', 'auth.login_failed',
+  'auth.logout', 'auth.token_refreshed', 'auth.token_reuse_detected',
+  'auth.account_locked', 'weight_entry.created', 'weight_entry.updated',
+  'weight_entry.deleted', 'goal.created', 'goal.updated',
+  'goal.abandoned', 'preference.updated'
+))
+```
 
 The second is that the trail must outlive the actor it describes, since
 deleting a user must not erase the security history of what that user
 did, so the foreign key releases rather than cascades:
 
-> user_id BIGINT REFERENCES users(user_id) ON DELETE SET NULL
+```sql
+user_id BIGINT REFERENCES users(user_id) ON DELETE SET NULL
+```
 
 The table stores no unmasked PII or secrets. It records user_id and, for
 failed logins where there is no user, a masked email in metadata,
@@ -94,9 +90,10 @@ threshold, for example, is NULL only for the goal_reached type and
 otherwise must be positive, a rule the application assumed but the
 database did not enforce:
 
-> CONSTRAINT achievements_threshold_positive
->
-> CHECK (threshold IS NULL OR threshold \> 0)
+```sql
+CONSTRAINT achievements_threshold_positive
+CHECK (threshold IS NULL OR threshold > 0)
+```
 
 Each new constraint lives in the SQLAlchemy model's \_\_table_args\_\_,
 so the SQLite integration suite enforces it through create_all, and also
