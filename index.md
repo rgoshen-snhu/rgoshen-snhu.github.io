@@ -37,7 +37,8 @@ Enhanced version of the Weight to Go application.
 
 #### Enhancement Three — Databases
 
-*Coming in Module 5 (Milestone Four).*
+- [Read the narrative]({{ '/narratives/enhancement-3-databases.html' | relative_url }})
+- [Download the Word version]({{ '/narratives/milestone_four_narrative_final.docx' | relative_url }})
 
 ---
 
